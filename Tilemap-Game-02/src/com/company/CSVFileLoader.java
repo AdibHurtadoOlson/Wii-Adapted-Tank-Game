@@ -17,7 +17,6 @@ public class CSVFileLoader {
             BufferedReader csvFileBufferedReader = new BufferedReader(csvFileReader);
 
             String line = csvFileBufferedReader.readLine();
-            int lineCounter = 0;
             while (line != null) {
                 ArrayList<String> tilesInLine = new ArrayList<String>();
                 for(String tile : line.split(",")) {
@@ -26,6 +25,9 @@ public class CSVFileLoader {
                 rawTileMap.add(tilesInLine);
                 line = csvFileBufferedReader.readLine();
             }
+            
+            csvFileBufferedReader.close();
+
         } catch (Exception e) {
             System.out.println(e);
         }

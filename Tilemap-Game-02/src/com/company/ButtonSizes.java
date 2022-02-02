@@ -27,7 +27,7 @@ public class ButtonSizes {
         BufferedImageLoader loader = new BufferedImageLoader(this.imageLocation);
 
         try {
-            image = loader.loadImage();
+            this.image = loader.loadImage();
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -9,17 +9,19 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class StartMenu implements Entity, Resizable {
-
-    private JPanel panel;
     Game game;
+    private Graphics g;
 
     private int titleXPosition;
     private int titleYPosition;
     private int screenWidth;
     private int screenHeight;
     private int titleFontSize;
-    private Graphics g;
+
     private static final String title = "Press Enter To Start";
+    private static final String resume = "Resume";
+    private static final String exit = "Exit";
+
     private Color titleColor = Color.BLACK;
     private Font titleFont;
     private FontMetrics metrics;
@@ -29,12 +31,10 @@ public class StartMenu implements Entity, Resizable {
 
     public StartMenu (Game game) {
         this.game = game;
-        this.panel = new JPanel();
         this.g = game.getGraphics();
 
         screenWidth = game.getWidth();
         screenHeight = game.getHeight();
-        panel.setPreferredSize(game.getSize());
 
         windowResizeVariables(screenWidth, screenHeight);
     }
@@ -42,7 +42,6 @@ public class StartMenu implements Entity, Resizable {
     public void windowResizeVariables (int currentScreenWidth, int currentScreenHeight) {
         screenWidth = currentScreenWidth;
         screenHeight = currentScreenHeight;
-        panel.setSize(game.getSize());
         titleFontSize = screenWidth / 20;
         titleFont = new Font("Comics", Font.BOLD, titleFontSize);
         metrics = g.getFontMetrics(titleFont);
@@ -84,14 +83,6 @@ public class StartMenu implements Entity, Resizable {
 
             menuButtons.add(btn);
         }
-    }
-
-    public void render (JFrame frame) {
-        for (JButton btn : menuButtons) {
-            panel.add(btn);
-        }
-
-        frame.add(panel);
     }
 
     @Override
