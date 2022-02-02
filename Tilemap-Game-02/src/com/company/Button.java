@@ -5,7 +5,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
 
-public class ButtonSizes {
+public class Button {
     Game game;
     private int width;
     private int height;
@@ -15,7 +15,7 @@ public class ButtonSizes {
     private String imageLocation;
     private Rectangle imageRect;
 
-    public ButtonSizes (int x, int y, int width, int height, String imageLocation, Game game) {
+    public Button (int x, int y, int width, int height, String imageLocation, Game game) {
         this.game = game;
         this.x = x;
         this.y = y;

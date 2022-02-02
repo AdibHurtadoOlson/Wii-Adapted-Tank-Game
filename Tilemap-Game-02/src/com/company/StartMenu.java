@@ -26,7 +26,9 @@ public class StartMenu implements Entity, Resizable {
     private Font titleFont;
     private FontMetrics metrics;
     private int totalMenuButtons = 4;
-    private ArrayList<JButton> menuButtons = new ArrayList<>();
+    private String[] menuText = {title, resume, exit};
+    private String[] menuImage = {"wall.png", "wall.png", "wall.png"};
+    private ArrayList<Button> menuButtons = CreateButton();
 
 
     public StartMenu (Game game) {
@@ -80,9 +82,26 @@ public class StartMenu implements Entity, Resizable {
                     btn.setText("Exited");
                 }
             });
-
-            menuButtons.add(btn);
         }
+    }
+
+    private ArrayList<Button> CreateButton() {
+        ArrayList<Button> menuButtons = new ArrayList<Button>();
+
+        for(int buttonCounter = 0; buttonCounter < 3; buttonCounter++) {
+            Font buttonTextFont = new Font("Comics", Font.BOLD, screenWidth / 20);
+            FontMetrics buttonTextFontMetrics = g.getFontMetrics(buttonTextFont); 
+
+            menuButtons.add(new Button((screenWidth / 2) - buttonTextFontMetrics.stringWidth(menuText[buttonCounter]),
+            (screenHeight / 4) * (buttonCounter + 1) - buttonTextFontMetrics.getHeight() / 2,
+            buttonTextFontMetrics.stringWidth(menuText[buttonCounter]),
+            screenWidth / 20,
+            menuImage[buttonCounter],
+            this.game));
+        }
+
+        return menuButtons;
+
     }
 
     @Override
@@ -107,8 +126,5 @@ public class StartMenu implements Entity, Resizable {
         g.setFont(titleFont);
         g.setColor(titleColor);
         g.drawString(title, titleXPosition, titleYPosition);
-
-        for (JButton btn : menuButtons) {
-        }
     }
 }
