@@ -40,6 +40,14 @@ public class Player extends GameObject implements Entity, Resizable {
         }
     }
 
+    public void setVelX  (double velX) {
+        this.velX = velX;
+    }
+
+    public void setVelY (double velY) {
+        this.velY = velY;
+    }
+
     @Override
     public void scale (int pastScreenWidth, int pastScreenHeight, Graphics g) {
         Dimension screenSize = this.game.getSize();
@@ -94,13 +102,5 @@ public class Player extends GameObject implements Entity, Resizable {
     @Override
     public void render (Graphics g) {
         g.drawImage(Scalr.resize(tank, normalizedWidth, normalizedHeight), x, y, normalizedWidth, normalizedHeight, null);
-    }
-
-    public void setVelX  (double velX) {
-        this.velX = velX;
-    }
-
-    public void setVelY (double velY) {
-        this.velY = velY;
     }
 }

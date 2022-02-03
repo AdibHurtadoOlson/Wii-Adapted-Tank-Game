@@ -1,8 +1,6 @@
 package com.company;
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.awt.image.BufferStrategy;
 import java.io.IOException;
 import javax.swing.*;

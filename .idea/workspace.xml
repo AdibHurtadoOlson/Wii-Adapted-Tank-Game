@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a28716f-1809-4534-83f0-cc57ab1ccb9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/Tilemap-Game-03-Updated.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/assets/TankImages/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/TankImages/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/assets/TankImages/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/TankImages/hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/assets/TankImages/wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/TankImages/wall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/assets/TileMapInfo/FirstLevel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/TileMapInfo/FirstLevel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/assets/TileMapInfo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/TileMapInfo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/BufferedImageLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/ButtonSizes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/CSVFileLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Game$STATE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/GameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/KeyInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/MouseInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/PauseMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/PlayerPositionOutline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Resizable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Scalr$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Scalr$Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Scalr$Mode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Scalr$Rotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Scalr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/StartMenu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/StartMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/TileMapCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/out/production/Tilemap-Game-03-Updated/com/company/TileSizes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/assets/TankImages/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/assets/TankImages/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/assets/TankImages/wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/assets/TileMapInfo/FirstLevel.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/assets/TileMapInfo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/BufferedImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BufferedImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/CSVFileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CSVFileLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/KeyInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/KeyInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/MouseInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MouseInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/PauseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/PauseMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/PlayerPositionOutline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/PlayerPositionOutline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/Resizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Resizable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/Scalr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Scalr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/StartMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/TileMapCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TileMapCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tilemap-Game-02/src/com/company/TileSizes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TileSizes.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24ZAIlSTdfGWogDx5JcHOZE3Kpc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Tilemap-Game-02" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adibh\Documents\GitHub\Wii-Adapted-Tank-Game" />
+      <recent name="C:\Users\adibh\Documents\GitHub\Wii-Adapted-Tank-Game\Tilemap-Game-02" />
+      <recent name="C:\Users\adibh\Documents\GitHub\Wii-Adapted-Tank-Game\Tilemap-Game-02\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.company.Game" />
+      <module name="Wii-Adapted-Tank-Game" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a28716f-1809-4534-83f0-cc57ab1ccb9c" name="Changes" comment="" />
+      <created>1643827661390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643827661390</updated>
+      <workItem from="1643827663479" duration="86000" />
+      <workItem from="1643906824738" duration="3657000" />
+      <workItem from="1643910969624" duration="228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

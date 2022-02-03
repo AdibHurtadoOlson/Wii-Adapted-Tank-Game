@@ -4,8 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class StartMenu implements Entity, Resizable {
@@ -27,6 +25,7 @@ public class StartMenu implements Entity, Resizable {
     private FontMetrics metrics;
     private int totalMenuButtons = 4;
     private String[] menuText = {title, resume, exit};
+    private String[] menuDirection = {""};
     private String[] menuImage = {"wall.png", "wall.png", "wall.png"};
     private ArrayList<Button> menuButtons = CreateButton();
 
@@ -49,43 +48,10 @@ public class StartMenu implements Entity, Resizable {
         metrics = g.getFontMetrics(titleFont);
         titleXPosition = screenWidth / 2 - metrics.stringWidth(title) / 2;
         titleYPosition = screenHeight /  2 - metrics.getHeight() / 2;
-
-        for (int buttonCounter = 0; buttonCounter < totalMenuButtons; buttonCounter++) {
-            JButton btn = new JButton();
-            btn.setText(title);
-            btn.setBorderPainted(false);
-            btn.setBounds(new Rectangle(titleXPosition, titleYPosition, metrics.stringWidth(title), metrics.getHeight()));
-            btn.addMouseListener(new MouseListener() {
-
-                @Override
-                public void mouseClicked(MouseEvent e) {
-
-                }
-
-                @Override
-                public void mousePressed(MouseEvent e) {
-
-                }
-
-                @Override
-                public void mouseReleased(MouseEvent e) {
-
-                }
-
-                @Override
-                public void mouseEntered(MouseEvent e) {
-                    btn.setText("Entered");
-                }
-
-                @Override
-                public void mouseExited(MouseEvent e) {
-                    btn.setText("Exited");
-                }
-            });
-        }
     }
 
     private ArrayList<Button> CreateButton() {
+        System.out.println("Here");
         ArrayList<Button> menuButtons = new ArrayList<Button>();
 
         for(int buttonCounter = 0; buttonCounter < 3; buttonCounter++) {
@@ -97,6 +63,7 @@ public class StartMenu implements Entity, Resizable {
             buttonTextFontMetrics.stringWidth(menuText[buttonCounter]),
             screenWidth / 20,
             menuImage[buttonCounter],
+            menuText[buttonCounter],
             this.game));
         }
 
@@ -126,5 +93,16 @@ public class StartMenu implements Entity, Resizable {
         g.setFont(titleFont);
         g.setColor(titleColor);
         g.drawString(title, titleXPosition, titleYPosition);
+
+        System.out.println(menuButtons);
+
+        for (Button button : menuButtons) {
+            Rectangle tempRect = button.getRect();
+            System.out.println(tempRect.x + " " + tempRect.y);
+
+            g.drawImage(Scalr.resize(button.getButtonImage(), tempRect.width, tempRect.height),
+                    tempRect.x, tempRect.y, tempRect.width, tempRect.height, null);
+            g.drawString(button.getButtonText(), tempRect.x, tempRect.y);
+        }
     }
 }
